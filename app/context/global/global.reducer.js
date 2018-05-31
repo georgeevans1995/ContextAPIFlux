@@ -3,7 +3,12 @@ import * as ActionTypes from "./global.mutations";
 
 export const dispatch = (
   state: {},
-  action: { type: string, language: string, loading: boolean, strings: any }
+  action: {
+    type: string,
+    language: string,
+    loading: boolean,
+    strings: any
+  }
 ) => {
   switch (action.type) {
     case ActionTypes.SELECT_LANGUAGE:

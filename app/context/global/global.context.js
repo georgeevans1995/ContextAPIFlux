@@ -5,10 +5,10 @@ import strings from "./translations";
 export const languages = ["en", "fr_Fr", "es"];
 
 type State = {
-  +isLoading: boolean,
-  +language: string,
+  isLoading: boolean,
+  language: string,
   +actions: any,
-  +strings: any
+  strings: any
 };
 
 let initialState: State = {
