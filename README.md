@@ -237,6 +237,6 @@ This approach is great as it uses very little code and provides us with the abil
 Going forward I think larger scale projects would still benefit from the use of libraries like redux where state really needs to be global (e.g for navigation) or needs to use features like [redux-persist](https://github.com/rt2zz/redux-persist). However smaller stateful components could benifit from using the context api for simplicity and efficiency gains. Going forward it would also be good to wrap some of this code in a library similar to redux, just to keep code DRY. Fortunately others have already been attempting this, check out [react-waterfall](https://github.com/didierfranc/react-waterfall) as an example or get coding and write your own!
 
 Full repository here:
-...
+[https://github.com/georgeevans1995/ContextAPIFlux](https://github.com/georgeevans1995/ContextAPIFlux)
 
 To run, clone the project, run `npm install` and `react-native run-ios` or `react-native run-android`.
